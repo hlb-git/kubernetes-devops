@@ -1,2 +1,2 @@
 # kubernetes-devops
-University of Helsinki DevOps with Kubernetes
+University of Helsinki DevOps with Kubernetes course
