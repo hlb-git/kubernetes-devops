@@ -9,5 +9,5 @@ if (process.env.PORT) {
 };
 
 app.listen(port, () => {
-    console.log(`Server started in port ${port}`);
+    console.log(`Server application started in port ${port}...`);
 });

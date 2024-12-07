@@ -1,17 +1,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: string-generator-dep
+  name: todoapp-dep
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: string-generator
+      app: todoapp
   template:
     metadata:
       labels:
-        app: string-generator
+        app: todoapp
     spec:
       containers:
-        - name: string-generator
-          image: devhlb/string-generator
+        - name: todoapp
+          image: devhlb/to-do-server:1.0.1

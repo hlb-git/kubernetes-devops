@@ -1,6 +1,9 @@
-```kubectl create deployment todo-server --image=devhlb/to-do-server```     This deploys a container in the running cluster
+# Part 1: Exercise 2
 
-```kubectl get pods```
+
+* ```kubectl create deployment todo-server --image=devhlb/to-do-server```     This deploys a container in the running cluster
+
+* ```kubectl get pods```
 
 ```
 NAME                           READY   STATUS    RESTARTS      AGE
