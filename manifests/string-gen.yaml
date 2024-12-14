@@ -1,17 +1,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: todoapp-dep
+  name: stirng-gen-dep
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: todoapp
+      app: stirng-gen
   template:
     metadata:
       labels:
-        app: todoapp
+        app: stirng-gen
     spec:
       containers:
-        - name: todoapp
-          image: devhlb/to-do-server:1.0.2
+        - name: stirng-gen
+          image: devhlb/string-generator:1.0.1
